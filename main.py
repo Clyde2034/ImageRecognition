@@ -281,7 +281,7 @@ while True:
 
         cv2.putText(frame, name, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
-    cv2.imshow("Face Organize",frame)
+    cv2.imshow("Face Recognize",frame)
     if cv2.waitKey(1)==ord('q'):
         break
 
